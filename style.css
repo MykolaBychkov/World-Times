@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+#london, #kyiv, #ny, #sydney, #la, #madrid {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 20px black;
+}
+.londonHeader, .kyivHeader, .nyHeader, .sydneyHeader, .laHeader, .madridHeader {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.londonPhoto {
+    width: 100%;
+    height: 70%;
+    background-image: url(London.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.kyivPhoto {
+    width: 100%;
+    height: 70%;
+    background-image: url(Kyiv.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nyPhoto {
+    width: 100%;
+    height: 70%;
+    background-image: url(NewYork.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sydneyPhoto {
+    width: 100%;
+    height: 70%;
+    background-image: url(Sydney.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.laPhoto {
+    width: 100%;
+    height: 70%;
+    background-image: url(LA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.madridPhoto {
+    width: 100%;
+    height: 70%;
+    background-image: url(Madrid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#londonTime, #kyivTime, #nyTime, #sydneyTime, #laTime, #madridTime {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    background-color: black;
+}
